@@ -1,18 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>I FIUMI NEL MONDO</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.11/p5.min.js"></script>
+        <script src="sketch.js" defer></script>
+   
+    </head>
 
-    <title>Sketch</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
-  </head>
-
-  <body>
-    <script src="sketch.js"></script>
-  </body>
-</html>
+    <body>
+        <header class="page-header"> <div class="header-top"><div class="header-titles">
+            <h1>I FIUMI NEL MONDO</h1>
+            <p class="subtitle">CENTO FIUMI</p>
+        </div><div class="header-credit"><p class="author">Simone Riboldi</p>
+            <p>ESERCITAZIONE 3 - Una visione di insieme</p>
+        </div>
+    </div>
+    <div class="header-rule"></div></header><main class="layout"><section class="visual">
+        <div id="grafico" aria-label="Sei composizioni per continente: la portata determina la posizione orizzontale, la lunghezza la dimensione dei quadrati, la temperatura il colore"></div>
+    
+    </section><aside class="sidebar"><section class="temperature-panel">
+        <h2>TEMPERATURA</h2>
+        <p>Temperatura media dell’acqua (°C)</p>
+        <div class="gradiente" aria-label="Scala di temperatura dal blu al rosso"></div>
+        <div class="tacche"><span id="tmin">0 °C</span>
+            <span id="tmax">30 °C</span></div>
+            <div class="units-note">
+                <h3>UNITÀ DI MISURA</h3>
+                <p><strong>Lunghezza</strong> · chilometri (km)</p>
+                <p><strong>Portata</strong> · metri cubi al secondo (m³/s)</p>
+            </div></section><section id="dettagli" class="details" aria-live="polite">
+                <span class="detail-kicker">DETTAGLI DEL FIUME</span>
+                <h2>Seleziona un fiume</h2>
+                <p>Clicca o tocca un quadratino per visualizzare i dati.</p>
+</section></aside></main></body></html>
